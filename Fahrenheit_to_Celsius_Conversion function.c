@@ -1,0 +1,20 @@
+/*
+Name :Brandon kimathi
+Reg No.CT101/G/26548/25
+Deacription :Fahrenheit to Celsius Conversion function
+*/
+
+
+#include <stdio.h>
+
+float convertToCelsius(float fahrenheit) {
+    return (fahrenheit - 32) * 5.0 / 9.0;
+}
+
+int main() {
+    float f;
+    printf("Enter temperature in Fahrenheit: ");
+    scanf("%f", &f);
+    printf("Temperature in Celsius = %.2f°C\n", convertToCelsius(f));
+    return 0;
+}
